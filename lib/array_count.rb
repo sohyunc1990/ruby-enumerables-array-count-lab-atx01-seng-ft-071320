@@ -9,9 +9,9 @@ def count_strings(array)
   if array[i].is_a? String
     y += 1
   end
-  puts y
+
 end
-  
+  puts y
 
 
 def count_empty_strings(array)
