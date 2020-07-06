@@ -1,12 +1,15 @@
 def count_strings(array)
  # Return the total number of strings in the provided array using the count enumerable
  
-  array.each do |element|
-  i = 0
-  if array ==  String
-    i += 1
+  x=array.length()
+  i=0
+  y=0
+  
+  for i in 0..x
+  if array[i].is_a? String
+    y += 1
   end
-  puts i
+  puts y
 end
   
 
