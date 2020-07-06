@@ -7,7 +7,7 @@ def count_strings(array)
   
   for i in 0..x
   if array[i].is_a? String
-    y += 1
+    y += 1;
   end
   puts y
 end
