@@ -10,7 +10,7 @@ def count_strings(array)
     y += 1
   end
 end
- puts y
+ y
 end
 
  
