@@ -22,6 +22,7 @@ i=0
     if element === "" 
       i +=1
   end
-   i
+   
 end
+i
 end
