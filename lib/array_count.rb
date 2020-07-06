@@ -17,8 +17,11 @@ end
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 
-
-
-
-
+i=0
+  array_2.each do |element|
+    if element === "" 
+      i +=1
+  end
+  puts i
+end
 end
